@@ -26,6 +26,7 @@ public class BookAndAuthorTest {
         Assert.assertEquals("LotR", book.getName());
         Assert.assertEquals(tolkien, book.getAuthor());
         Assert.assertEquals(23.99, book.getPrice(), 0.01);
+        Assert.assertEquals(0, book.getQty(),0.1);
     }
     @Test
     public void bookDefaultGetNameGetAuthorGetPriceGetQty () {
