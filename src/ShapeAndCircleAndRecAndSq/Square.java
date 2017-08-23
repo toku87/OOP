@@ -11,16 +11,30 @@ public class Square extends Rectangle {
         super(side,side,color, filled);
     }
     public double getSide() {
-        return getLenght();
+        return getLength();
     }
     public void setSide (double side) {
-        super.setLenght(side);
+        super.setLength(side);
         super.setWidth(side);
     }
 
     @Override
     public void setWidth (double side) {
         super.setWidth(side);
-        super.setLenght(side);
+        super.setLength(side);
+    }
+    @Override
+    public void setLength(double side) {
+        super.setWidth(side);
+        super.setLength(side);
+    }
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("A Square with side=")
+                .append(getSide())
+                .append(" which is a subclass of ")
+                .append(super.toString());
+
+        return sb.toString();
     }
 }

@@ -5,8 +5,7 @@ public class MyPoint {
     private int _x = 0;
     private int _y = 0;
 
-    MyPoint() {
-    }
+    MyPoint() {}
 
     MyPoint(int x, int y) {
         _x = x;
