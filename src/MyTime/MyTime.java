@@ -75,14 +75,16 @@ public class MyTime {
         if (_minute == 59) {
             setMinute(0);
             nextHour();
-        } else _minute = _minute + 1;
+        } else
+            _minute = _minute + 1;
         return this;
     }
 
     public MyTime nextHour() {
         if (_hour == 23) {
             setHour(0);
-        } else  _hour = _hour + 1;
+        } else
+            _hour = _hour + 1;
         return this;
     }
     public MyTime previousSecond () {
@@ -90,7 +92,8 @@ public class MyTime {
             setSecond(59);
             previousMinute();
         }
-        else  _second = _second-1;
+        else
+            _second = _second-1;
         return this;
     }
     public MyTime previousMinute () {
@@ -103,7 +106,8 @@ public class MyTime {
     public MyTime previousHour() {
         if (_hour==0) {
             setHour(23);
-        }else _hour = _hour - 1;
+        }else
+            _hour = _hour - 1;
         return this;
     }
 }
