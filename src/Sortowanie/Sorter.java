@@ -14,5 +14,6 @@ public class Sorter {
     public int [] wykonajSortowanie (int [] toSort) {
         return _sortowanie.sort(toSort);
     }
+
 }
 
