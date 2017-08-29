@@ -9,7 +9,7 @@ public class cdNumberOfTheBeast implements IProduct{
     }
 
     @Override
-    public int getNettoPrice() {
+    public double getNettoPrice() {
         return 0;
     }
 }
