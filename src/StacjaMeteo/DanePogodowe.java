@@ -30,7 +30,6 @@ public class DanePogodowe implements IPodmiot{
     @Override
     public void usunObserwatora(IObserwator obserwator) {
         obserwatorzy.remove(obserwator);
-
     }
 
     @Override
@@ -39,6 +38,7 @@ public class DanePogodowe implements IPodmiot{
             obserwator.aktualizuj(_temperatura, _cisnienie, _wilgotnosc);
         }
     }
+
     public void ustawZmienne(float temperatura, float cisnienie, float wilgotnosc) {
         _temperatura = temperatura;
         _cisnienie = cisnienie;

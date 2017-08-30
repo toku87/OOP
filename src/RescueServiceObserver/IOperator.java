@@ -3,9 +3,11 @@ package RescueServiceObserver;
 
 public interface IOperator {
 
-    void registerObserver();
+    void removeObserver(IService services);
 
-    void removeObserver();
+    void registerObserver(IService services);
 
     void notifyObservers();
+
+    String getStatus();
 }
