@@ -1,7 +1,14 @@
 package Bohater;
 
-/**
- * Created by RENT on 2017-08-30.
- */
-public class TarczaDrewniana {
+
+public class TarczaDrewniana extends Tarcza{
+
+    public TarczaDrewniana () {
+        opis = "Tarcza z drewna sandałowca";
+    }
+
+    @Override
+    public int Obrona() {
+        return 10;
+    }
 }
