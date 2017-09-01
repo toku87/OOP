@@ -9,4 +9,5 @@ public abstract class Tarcza {
     }
 
     public abstract int Obrona();
+
 }
