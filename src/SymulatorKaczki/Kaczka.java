@@ -1,8 +1,6 @@
 package SymulatorKaczki;
 
-/**
- * Created by RENT on 2017-08-28.
- */
+
 public abstract class Kaczka {
     protected ILatanie latanie;
     protected IKwakanie kwakanie;
