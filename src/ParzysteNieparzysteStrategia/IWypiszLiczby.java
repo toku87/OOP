@@ -3,5 +3,5 @@ package ParzysteNieparzysteStrategia;
 
 public interface IWypiszLiczby {
 
-    int [] wypisz();
+    void wypisz();
 }

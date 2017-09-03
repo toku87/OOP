@@ -1,7 +1,9 @@
 package EkspresAdapter;
 
-/**
- * Created by RENT on 2017-09-01.
- */
-public class Tassimo {
+public class Tassimo implements ITassimo{
+
+    @Override
+    public void zrobKaweZKapsulkiBosch() {
+        System.out.println("Tassimo :: robię pyszne espresso z kapsułki");
+    }
 }
